@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+
+# Generated at runtime - don't commit student data/biometrics
+pictures/*
+!pictures/.gitkeep
+attendance/
+trained_from_pictures.yml
+pictures_labels.txt
+
+# OS/editor junk
+.DS_Store
+.vscode/
